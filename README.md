@@ -1,7 +1,7 @@
 # Framingham Heart Study: 10-Year CHD Risk Prediction
 
 This project predicts the 10-year risk of Coronary Heart Disease (CHD) using the Framingham Heart Study dataset.  
-It demonstrates data cleaning, exploratory data analysis (EDA), modelling with multiple algorithms, evaluation, and feature importance analysis using Random Forest and SHAP.
+It demonstrates data cleaning, exploratory data analysis, modelling with multiple algorithms, evaluation, and feature importance analysis using Random Forest and SHAP.
 
 ## Project Structure
 
@@ -84,7 +84,7 @@ framingham-heart-risk/
 **Insights**  
 - Systolic blood pressure (sysBP), BMI, age, total cholesterol, and glucose are the most important predictors for 10-year CHD risk.  
 - Logistic Regression slightly outperforms other models in ROC-AUC, while Random Forest has the highest accuracy.  
-- The dataset is imbalanced with ~15% of patients experiencing CHD within 10 years.
+- The dataset is imbalanced with approximately 15% of patients experiencing CHD within 10 years.
 
 ## Requirements
 
